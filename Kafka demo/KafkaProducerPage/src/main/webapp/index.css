@@ -1,0 +1,88 @@
+@charset "ISO-8859-1";
+
+body {
+	background-color: skyblue;
+	font-family: verdana;
+	line-height: 1.5;
+}
+
+
+h1, h2, p, form {
+	padding-left: 20px;
+	font-family: Century Gothic;
+}
+
+h2{
+	color: saddlebrown;
+}
+
+label{
+	font-weight: 900;
+	color: sienna;
+}
+
+.box {
+	width: 960px;
+	height: 430px;
+	background-color: gold;
+	padding: 5px;
+	margin: auto;
+	position: static;
+}
+
+.push {
+	width: 960px;
+	height: 260px;
+	background-color: coral;
+	padding: 5px;
+	margin: auto;
+	position: relative;
+}
+
+iframe {
+	width: 360px;
+	height: 300px;
+	background-color: black;
+	float: right;
+	margin: 5px;
+	padding: 5px;
+}
+
+#stockSymbol {
+	width: 80px;
+	font-family: Century Gothic;
+	font-weight: 900;
+	color: green;
+	border-radius: 25px;
+	text-align: center;
+}
+
+.button{
+	border-radius: 25px;
+	width: 130px;
+	height: 40px; 
+	font-weight: 900;
+	background-color: crimson;
+	color: white;
+	text-align: center;
+}
+
+.button:hover{
+	border-radius: 25px;
+	width: 130px;
+	height: 40px; 
+	font-weight: 900;
+	background-color: darkred;
+	color: white;
+	text-align: center;
+}
+
+.button:active{
+	border-radius: 25px;
+	width: 130px;
+	height: 40px; 
+	font-weight: 900;
+	background-color: darkred;
+	color: white;
+	text-align: center;
+}

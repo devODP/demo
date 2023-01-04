@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Kafka producer page</title>
+<link href="index.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div class="box">
+		<iframe width="1280" height="720"
+			src="https://www.youtube.com/embed/Ch5VhJzaoaI"
+			title="Apache Kafka in 6 minutes" frameborder="0"
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+			allowfullscreen></iframe>
+		<h1>Kafka Concepts</h1>
+		<p>Apache Kafka is a distributed event store and stream-processing
+			platform. It is an open-source system developed by the Apache
+			Software Foundation written in Java and Scala. The project aims to
+			provide a unified, high-throughput, low-latency platform for handling
+			real-time data feeds. Kafka can connect to external systems (for data
+			import/export) via Kafka Connect, and provides the Kafka Streams
+			libraries for stream processing applications.</p>
+		<p>Kafka uses a binary TCP-based protocol that is optimized for
+			efficiency and relies on a "message set" abstraction that naturally
+			groups messages together to reduce the overhead of the network
+			roundtrip. This "leads to larger network packets, larger sequential
+			disk operations, contiguous memory blocks [...] which allows Kafka to
+			turn a bursty stream of random message writes into linear writes."</p>
+	</div>
+	<div class="push">
+		<h2>Demo</h2>
+		<form action="KafkaProducer">
+			<label for="fname">Enter stock symbol below:</label><br> 
+			<input type="text" id="stockSymbol" name="stockSymbol" value="TSLA"><br> <br>
+			<label for="fname">Click the "Push" button:</label><br> 
+			<input class="button" type="submit" id="confirmation" value="Push">
+		</form>
+	</div>
+</body>
+</html>
